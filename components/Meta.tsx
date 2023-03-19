@@ -15,13 +15,13 @@ export default function Meta() {
         as="fetch"
         rel="preload"
         href="/api/places?location=Enterprise,%20AL"
-        crossOrigin="same-origin"
+        crossOrigin="anonymous"
       />
       <link
         as="fetch"
         rel="preload"
         href="/api/weather?location=Enterprise,%20AL"
-        crossOrigin="same-origin"
+        crossOrigin="anonymous"
       />
       <link rel="icon" href="/favicon.ico" />
     </Head>
